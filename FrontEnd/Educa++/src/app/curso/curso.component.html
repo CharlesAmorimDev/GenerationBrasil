@@ -1,0 +1,168 @@
+<header id="inicio">
+  <div class="img-wrapper">
+      <img src="https://i.imgur.com/aePnW3d.jpg" alt="">
+  </div>
+  <div class="banner">
+      <h1>Olá, {{nome}} </h1>
+      <p>conheça nossos cursos de back-end</p>
+
+
+
+  </div>
+</header>
+
+<body class="bg">
+  <h1 class="text-center text-white">Cursos</h1>
+<div class="container bg mt-5 mb-5">
+
+
+         <div class="row row-cols-1 row-cols-md-3 g-5 "> 
+            <div class="col zoom categorias">
+              <div class="card h-100">
+                <img src="https://i.imgur.com/xKEpD7w.jpg" class="card-img-top" alt="...">
+                <div class="card-body cor">
+                  <h5 class="card-title letra">Java</h5>
+                  <p class="card-text letras"> É uma das linguagens de desenvolvimento mais conhecidas e bem 
+                    remuneradas do mercado de trabalho. Curso muito didático e que ensinará a dominar 
+                    programação orientada a objetos e linguagem Java
+                  </p>
+                </div>
+                <div class="card-footer cor">
+                    <button type="button" class="btn btn btn1" data-bs-toggle="modal" 
+                    data-bs-target="#exampleModal1">Saiba mais</button>
+                </div>
+              </div>
+            </div>
+            <div class="col zoom categorias">
+              <div class="card h-100">
+                <img src="https://i.imgur.com/sujNdA9.png" class="card-img-top " alt="...">
+                <div class="card-body cor">
+                  <h5 class="card-title letra">Phython</h5>
+                  <p class="card-text letras">Python é uma linguagem de programação de alto nível estruturada e classificadas
+                     como orientadas a objetos. Neste curso vou explicar alguns conceitos básicos e mostrar que 
+                     você também pode aprender a programar!
+                  </p>
+                </div>
+                <div class="card-footer cor">
+                    <button type="button" class="btn btn btn1" data-bs-toggle="modal" 
+                    data-bs-target="#exampleModal2">Saiba mais</button>
+                </div>
+              </div>
+            </div>
+            <div class="col zoom categorias">
+              <div class="card h-100">
+                <img src="https://i.imgur.com/fy4WNmz.jpg" class="card-img-top" alt="...">
+                <div class="card-body cor">
+                  <h5 class="card-title letra">Kotlin</h5>
+                  <p class="card-text letras">Nesse curso abordaremos desde os Fundamentos da Linguagem Kotlin, até sua aplicação
+                     de forma performática para seu uso no dia a dia. Se você busca um conteúdo que realmente vai trazer 
+                     uma diferencial na sua carreira.</p>
+                </div>
+                <div class="card-footer cor">
+                    <button type="button" class="btn btn btn1" data-bs-toggle="modal" 
+                    data-bs-target="#exampleModal3">Saiba mais</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+         
+    
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Java</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h3>Duração</h3>
+                3 meses. <br>
+                240 horas
+            </div>
+            <div class="modal-body">
+                <h3>Descrição</h3>
+                40 vagas.
+                 <br>
+                EAD.
+              </div>
+              <div class="modal-body">
+                <h3>Valor</h3>
+                R$: 12.000,00
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btm " data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btm2" data-bs-dismiss="modal" (click)="comprar()">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Python</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h3>Duração</h3>
+                3 meses. <br>
+                240 horas
+            </div>
+            <div class="modal-body">
+              <h3>Descrição</h3>
+              40 vagas.
+               <br>
+              EAD.
+            </div>
+              <div class="modal-body">
+                <h3>Valor</h3>
+                R$: 12.000,00
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btm" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btm2" data-bs-dismiss="modal"(click)="comprar()">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Kotlin</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h3>Duração</h3>
+                3 meses. <br>
+                240 horas
+            </div>
+            <div class="modal-body">
+              <h3>Descrição</h3>
+              40 vagas.
+               <br>
+              EAD.
+            </div>
+              <div class="modal-body">
+                <h3>Valor</h3>
+                R$: 12.000,00
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btm" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btm2" data-bs-dismiss="modal"(click)="comprar()">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+      
+    </body>
+    
+    
+    
+    
+      

@@ -1,0 +1,24 @@
+ul.icone-rede-social{
+    list-style: none;
+    padding: 0px;
+}
+
+ul.icone-rede-social li{
+    display: inline;
+    margin: 0;
+    padding: 10px;
+}
+
+.fa{
+    font-size: 35pt;
+    color: white;
+    padding: 10px;
+}
+
+.fa-linkedin-square:hover{
+    color: #0072b1;
+}
+
+.fa-github:hover{
+    color: black;
+}

@@ -1,0 +1,60 @@
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.fs:hover{
+    color: #FFD43D;
+  
+}
+
+a:hover{
+    color: rgb(20, 236, 225);
+}
+.fp{
+    font-size: 20pt;
+    color: white;
+    
+}
+.tra{
+    text-decoration: none;
+}
+.bg{
+    background-image: url("https://i.imgur.com/kUkS6QF.jpg");
+}
+
+.bf{
+    font-size: 20pt;
+    color: #ffffff;
+      
+}
+.fn{
+    font-size: 35pt;
+    color: #ffffff;
+}
+.btn:hover{
+    
+    color: white ;
+    background-color: rgb(20, 236, 225);
+}
+.btn{
+    background-color: white;
+}
+.fa1:hover{
+    color: #FFD43D;
+  
+}
+.fa1{
+    font-size: 20pt;
+    color: white;
+    
+}
+.mar{
+    margin-left: 10px;
+}
+bt:hover{
+    color: white;
+}

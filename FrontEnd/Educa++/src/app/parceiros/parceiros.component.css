@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap%27');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css%22");
+
+.bg-colore{
+    background-image: url("https://media.discordapp.net/attachments/969572770826579998/988047362926727228/a563102285494ed48944fe5fef10d313.jpg?width=760&height=428");
+  
+}
+::ng-deep body{
+    background-color: #000203;
+}
+
+h1{
+    font-family: "Baloo Da 2", serif;
+    color: #ffd43d;
+    font-size: 76px;
+    margin-left: 3rem;
+}
+a{
+    text-decoration: none;
+    color: #ffd43d;
+    
+}
+.a:hover{
+    
+    color: #0d0486
+}
+h4{
+    font-family: "Baloo Da 2", serif;
+    color:#fff;
+    margin-left: 3rem;
+    text-align: left;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f4b927;
+   }
+   .wrapper {
+   padding-top: 120px;
+   }
+   .card-img-top {
+   box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+   }
+   .card-body{
+       text-align: center;
+       box-shadow: 0px 15px 15px -8px rgba(0,0,0,0.5)
+   }
+   .card-body h6 {
+   font-size: 14px;
+   text-transform: uppercase;
+   color: deeppink;
+   }
+   .card-title {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 24px;
+   }
+   
+   .socials a {
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   border-radius: 50%;
+   margin: 0 5px;
+   }
+   .socials a i {
+   color: #fff;
+   padding: 12px 0;
+   }    
+   
+   .socials a:nth-child(1) {
+   background: #3b5998;
+   }.socials a:nth-child(2) {
+   background: #ff0000;
+   }.socials a:nth-child(3) {
+   background: #007bb5;
+   }.socials a:nth-child(4) {
+   background: #ea4c89;
+   }
+   
+   @media (max-width: 800px){
+       .mx-30{
+           margin-bottom: 30px;
+       }
+   }
+   .margem{
+ 
+    margin-top: 10%;
+}
+.margin{
+margin-bottom: 70px;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    position: relative;
+  }
+   
